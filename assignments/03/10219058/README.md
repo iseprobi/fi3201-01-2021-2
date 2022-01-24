@@ -66,5 +66,6 @@ Jelaskan dengan singkat hal yang dihasillkan oleh kode yang diberikan.
 
 ### answer 4
 Kode di atas berfungsi untuk
-+ ..
-+ ..
++ Kode pada answer 1 itu tidak bisa dijalankan karena 'char' disana tidak terdefinisi
++ Kode pada answer 2 itu berfungsi untuk menampilkan secara vertikal satu persatu nomor pada NIM, dan memberikan kotak kosong (kotak putih) di sebelah kanannya sebanyak nilai nomor tersebut 
++ Kode pada answer 3 itu berfungsi untuk menampilkan secara vertikal satu persatu nomor pada NIM, dan memberikan kotak berisi (kotak hitam) di sebelah kanannya sebanyak nilai nomor tersebut
