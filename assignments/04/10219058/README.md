@@ -74,7 +74,7 @@ Baca penjelasan mengenai kode di atas pada <https://dudung.github.io/bugx/0026/>
 ### answer 1
 Apakah penjelasan kode dia atas sudah dibaca atau hadir pada kuliah?
 ```
-sudah
+sudah dan hadir pada kuliah
 ```
 
 ## question 2
@@ -83,9 +83,14 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 ### answer 2
 Potongan kode yang perlu disisipkan adalah
 ```
+def animate(i):
+    x = np.linspace(0, 2, 1000)
+    y = 2*np.sin(1 * np.pi * (x - 0.01 * i))
+    line.set_data(x, y)
+    return line,
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to right]()
+![gif file from simulation wave to right](ke-kanan.gif)
 
 
 ## question 3
@@ -94,9 +99,14 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 ### answer 3
 Potongan kode yang perlu disisipkan adalah
 ```
+def animate(i):
+    x = np.linspace(0, 2, 1000)
+    y = 2*np.sin(1 * np.pi * (x + 0.01 * i))
+    line.set_data(x, y)
+    return line,
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to left]()
+![gif file from simulation wave to left](ke-kiri.gif)
 
 
 ## question 4
@@ -105,6 +115,11 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang stasion
 ### answer 4
 Potongan kode yang perlu disisipkan adalah
 ```
+def animate(i):
+    x = np.linspace(0, 2, 1000)
+    y = 2*np.sin(1 * np.pi * x) * np.cos(1 * np.pi * 0.01 * i)
+    line.set_data(x, y)
+    return line,
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave stationary]()
+![gif file from simulation wave stationary](stasioner.gif)
