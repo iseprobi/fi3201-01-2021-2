@@ -5,4 +5,4 @@
 4. Unggah ke GitHub Anda dan berikan link pada berkas ini pada bagian jawaban.
 
 ## answer
-Tautan ke berkas Notebook Python saya adalah [Isep Robi Awaludin.ipynb]().
+Tautan ke berkas Notebook Python saya adalah [Isep Robi Awaludin.ipynb](http://localhost:8888/notebooks/Downloads/Fisika%20Komputasi/Isep%20Robi%20Awaludin.ipynb).
